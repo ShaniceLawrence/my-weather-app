@@ -1,5 +1,10 @@
 body {
-  background: #f9f7fe;
+  background: linear-gradient(
+    67.6deg,
+    rgb(225, 242, 254) -2.8%,
+    rgb(193, 224, 250) 44.6%,
+    rgb(19, 116, 197) 102.4%
+  );
   font-family: "Roboto", sans-serif;
 }
 
@@ -17,12 +22,23 @@ a {
 }
 
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid
+    linear-gradient(
+      67.6deg,
+      rgb(225, 242, 254) -2.8%,
+      rgb(193, 224, 250) 44.6%,
+      rgb(19, 116, 197) 102.4%
+    );
   padding: 0 0 30px 0;
 }
 
 .search-form-input {
-  background: #f9f7fe;
+  background: linear-gradient(
+    67.6deg,
+    rgb(225, 242, 254) -2.8%,
+    rgb(193, 224, 250) 44.6%,
+    rgb(19, 116, 197) 102.4%
+  );
   border: none;
   border-radius: 6px;
   width: 80%;
